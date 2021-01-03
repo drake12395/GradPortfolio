@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<head>
+	
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Drakes Portfolio</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+		crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+	<!--  Nav Bar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
+		<div class="d-flex flex-grow-1">
+			<span class="w-100 d-lg-none d-block">
+				<!-- hidden spacer to center brand on mobile -->
+			</span>
+			<a class="navbar-brand d-none d-lg-inline-block" href="index.html">
+				DS
+			</a>
+			<!--  may not need this, test later -->
+			<div class="w-100 text-right">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
+		</div>
+		<div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+			<ul class="navbar-nav ml-auto flex-nowrap">
+				<li class="nav-item">
+					<a href="resume.html" class="nav-link m-2 menu-item nav-active">Resume</a>
+				</li>
+				<li class="nav-item">
+					<a href="index.html" id="home" class="nav-link m-2 menu-item">Home</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!--  education -->
+
+	<div class="container">
+
+		<img class="myPic" src="drakePortfolio.jpg" alt="Card image cap">
+
+		<div class="card border-white mb-3" style="max-width: 50rem; margin: auto;">
+			<div class="card-body ">
+				<h5 class="card-title lead" style="font-size: 30px; text-align: center;">About Me.</h5>
+
+				<h3 class="card-text lead" style="font-size: 30px;">
+					I currently reside in Mid-Michigan where I enjoy spending time with my amazing girlfriend and our
+					wonderful dogs. I enjoy spending time at the gym, cooking, golfing, biking, and reading. <br><br>
+				</h3><br>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm">
+				<p class="interestPicTitle lead">Now Reading</p>
+				<a
+					href="https://www.amazon.com/Atomic-Habits-James-Clear/dp/1847941834/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1609167958&sr=8-1">
+					<img src="atomicHabits.jpg" class="interestPics"></a>
+			</div>
+			<div class="col-sm">
+				<p class="interestPicTitle lead">Now listening</p>
+				<a href="https://www.youtube.com/watch?v=7B7caqMYCag"><img src="mumfordPic.jpg"
+						class="interestPics"></a>
+			</div>
+		</div>
+		<footer>
+			<a href="https://github.com/drake12395" class="fa fa-github fa-3" style="font-size:25px"></a>
+			<a href="https://linkedin.com/in/drake-schmidt-70356b180" class="fa fa-linkedin" style="font-size:25px"></a>
+		</footer>
+	</div>
+	<script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Drakes Portfolio</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!--  Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="d-flex flex-grow-1">
+      <span class="w-100 d-lg-none d-block">
+        <!-- hidden spacer to center brand on mobile -->
+      </span>
+      <a class="navbar-brand d-none d-lg-inline-block" href="index.html">
+        DS
+      </a>
+      <div class="w-100 text-right">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+    <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+      <ul class="navbar-nav ml-auto flex-nowrap">
+        <li class="nav-item">
+          <a href="resume.html" class="nav-link m-2 menu-item nav-active">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link m-2 menu-item">About</a>
+        </li>
+      </ul>
+    </div>
+	</nav>
+	<!-- home page intro -->
+  <div class="container">
+    <div class="card border-white mb-3" style="max-width: 50rem; margin: auto;">
+      <div class="card-body">
+        <h5 class="card-title lead" style="font-size: 30px;">Hello! My name is Drake Schmidt.</h5>
+        <h3 class="card-text lead" style="font-size: 30px;">I am a versatile software engineer with a deep interest in
+          problem solving.
+          Check out my projects and collaborations.</h3>
+      </div>
+    </div>
+    <!--  my project (one)-->
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="srsPic.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Software Requirement Specification (SRS)</h5>
+          <p class="card-text">This document was created to define a commercial grade DFMEA software system for a global
+            market leader
+            in engine management and fuel systems.
+          </p>
+          <a href="SRS_Group_4.pdf" class="stretched-link"></a>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Microsoft Word, Visio, Teams, Bootstrap, HTML, CSS, React, Spring, Java</small>
+        </div>
+      </div>
+		<!--  my project (two)-->
+      <div class="card">
+        <img class="card-img-top" src="meetingPic.jpg">
+        <div class="card-body">
+          <h5 class="card-title">VisiTrack</h5>
+          <p class="card-text">This web application allows guests to sign-in, create a visitor pass, and view a
+            scheduled meeting. Credentialed meeting hosts can create and manage meetings.
+          </p>
+          <a href="https://visitrack.herokuapp.com/login" class="stretched-link"></a>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">React, Redux, JavaScript, React-BootStrap, MongoDB</small>
+        </div>
+      </div>
+
+      <footer>
+        <a href="https://github.com/drake12395" class="fa fa-github fa-3" style="font-size:25px"></a>
+        <a href="https://linkedin.com/in/drake-schmidt-70356b180" class="fa fa-linkedin" style="font-size:25px"></a>
+      </footer>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

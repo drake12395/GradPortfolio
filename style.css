@@ -1,0 +1,56 @@
+/* The majority of css is handled by bootstrap,
+the following css has a primary focus of aiding
+in position and alignment of elements that don't 
+fit the mold of bootstrap.*/
+
+@media (min-width: 768px) {
+  .navbar-brand.abs {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+  }
+}
+
+div.a {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+  border-top: 1px solid #d9d9d9;
+}
+
+footer a {
+  margin: 10px;
+}
+
+.myPic {
+  max-width: 20rem;
+  max-height: 30rem;
+  margin: auto;
+  display: flex;
+  border-radius: 50%;
+}
+
+.interestPics {
+  max-width: 15rem;
+  max-height: 15rem;
+
+  margin: auto;
+  text-align: center;
+
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.interestPicTitle {
+  text-align: center;
+}
